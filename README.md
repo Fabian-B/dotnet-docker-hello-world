@@ -7,7 +7,7 @@ dotnet restore
 dotnet run
 ```
 
-## How to run on docker
+## How to run on docker (with microsoft/dotnet:1.0.0-preview1)
 ```
 docker build -t hellodotnet .
 dotnet run hellodotnet
